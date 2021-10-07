@@ -1389,7 +1389,7 @@ display: none;
  }
 
  .contact-page{
-    padding: 0px 0px 200px 420px;
+    padding: 0px 0px 300px 420px;
     background-color:white;
     line-height: 1.5;
     display: flex;
@@ -1620,7 +1620,7 @@ position: relative;
 display: flex;
 justify-content: flex-start;
 flex-direction: column;
-padding: 0px 0px 250px 420px;
+padding: 0px 0px 300px 420px;
 background-color:#104e92;
 line-height: 1.5;
 }
