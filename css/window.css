@@ -1555,7 +1555,7 @@ flex-direction: column;
 display: flex;
 flex-direction: column;
 position: relative;
-left: 10px;
+left: 20px;
 }
 
 .justify-content-between {
