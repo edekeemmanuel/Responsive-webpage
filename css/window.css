@@ -1,0 +1,2954 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+}
+
+.first-style{
+    display: flex;
+    justify-content: center;
+
+}
+
+.first-style .menu{
+   position: relative;
+   left: 680px;
+   top: 20px;
+}
+
+.first-style .heading-logo{
+    position: relative;
+    right: 500px;
+    top: 20px; 
+    color: lightgray;
+    font-family: 'Oxygen', sans-serif;  
+}
+.cleaner{
+   background-image: url("../img/hero-bg.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+   padding: 0px 650px 500px 848px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    position: relative;
+    top: 50px; 
+}
+
+.cleaner .header-txt{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 300px;
+    top: 250px;    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-txt .text1{
+    color: white;
+    position: relative;
+    right: 70px;
+    top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    width: 300px;
+    
+}
+.header-txt .text2{
+    color: white;
+    position: relative;
+    right: 50px;
+    top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    width: 300px;
+    
+}
+
+.header-txt .text3{
+    color: white;
+    position: relative;
+    top: 50px;
+    right: 400px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7rem;
+    width: 250px;
+    margin: 2;
+}
+
+.text3::after{
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 150px;
+    transform: translateX(-50);
+    width: 500px;
+    height: 8px;
+    background-color: white;
+    size: 100rem;
+}
+
+
+.row{
+display: flex;
+flex-direction: row;
+position: relative;
+right: 350px;
+top: 300px;
+}
+
+.row .paint{
+position: relative;
+right: 270px;
+top: 40px;
+}
+
+.row .cleaning{
+position: relative;
+right: 270px;
+top: 40px;
+}
+
+.row .tap{
+position: relative;
+right: 270px;
+top: 40px;
+}
+
+.brush{
+display: flex;
+justify-content: center;
+position: relative;
+right: 300px;
+top: 30px;
+padding: 40px;
+
+}
+
+
+
+.booking-page{
+    padding: 0px 650px 500px 848px;
+    background-color:rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+    width: 100%;
+}  
+
+.booking-page .page{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    right: 150px;
+    top: 200px;
+    font-size: 1rem;
+}
+
+.page .text4{
+    color: rgb(161, 161, 161);
+    width: 350px;
+    position: relative;
+    left: 250px;
+    font-size: 1.5rem;
+}
+
+.page .text5{
+    font-size: 2.5rem;
+    width: 750px;
+    position: relative;
+    right: 25px;
+    top: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.page .text6{
+    position: relative;
+    top: 50px;
+    left: 30px;
+    text-align: center;
+    font-size: 1.25rem;
+    width: 620px;
+    color: rgb(87, 86, 86);
+}
+
+.button-section button{
+    width: 10rem;
+    padding: 0.7rem;
+    background-color: rgb(212, 42, 42);
+    color: white;
+    border: unset;
+    padding: 20px;
+    position: relative;
+    top: 80px;
+    left: 260px;
+    font-size: 0.7rem;
+    cursor: pointer;
+ }
+
+ .contact-page{
+    padding: 0px 65px 250px 700px;
+    background-color:white;
+    line-height: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+ }
+
+ .contact-page .page1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    right: 600px;
+    top: 50px;
+    font-size: 1rem;
+ }
+
+ .contact-page .page2{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    right: 500px;
+    top: 100px;
+    font-size: 1rem;
+ }
+
+ .page1 .image1{
+    width: 550px;        
+ }
+
+ .page1 .text7{
+     position: relative;
+     left: 30px;
+     top: 30px;
+     width: 450px;
+     font-size: 1.3rem;
+ }
+
+ .page2 .text8{
+    position: relative;
+    top: 50px;
+    left: 0px;
+    font-size: 2rem;
+    width: 350px;
+}
+
+.page2 .text9{
+    position: relative;
+    top: 50px;
+    left: 0px;
+    font-size: 2rem;
+    width: 350px;
+    color: red;
+}
+
+.page2 .image2{
+    width: 550px; 
+    position: relative;
+    right: 50px;
+    top: 80px;
+    
+ }
+
+ .quality-page{
+    padding: 0px 650px 42px 848px;
+    background-color:rgb(211, 202, 202);
+    line-height: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+ }
+
+ .quality-page .page3{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    right: 800px;
+    top: 50px;
+    font-size: 1rem;
+ }
+
+
+ .page3 .image3{
+    width: 500px;
+    position: relative;
+    left: 100px;
+ }
+
+ .quality-page .page4{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    right: 650px;
+    top: 50px;
+    font-size: 1rem;
+ }
+
+ .page4 .text10{
+    color: rgb(3, 3, 184);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 150px;
+    right: 10px;
+    font-size: 4rem;
+    width: 500px;
+ }
+
+ .page4 .text10::after{
+    content: '';
+    position: absolute;
+    top: 120px;
+    left:8px;
+    transform: translateX(-50);
+    width: 510px;
+    height: 8px;
+    background-color: rgb(209, 4, 4);
+    size: 55rem;
+}
+
+.page4 .text11{
+    position: relative;
+    right: 10px;
+    top: 210px;
+    width: 550px;
+    font-size: 1.5rem;
+}
+
+.button-section1 button{
+    width: 8rem;
+    padding: 0.7rem;
+    background-color: rgb(212, 42, 42);
+    color: white;
+    border: unset;
+    padding: 20px;
+    position: relative;
+    top: 250px;
+    right: 10px;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+   
+.services-page {
+padding: 60px;
+}
+.container{
+width: 90%;
+margin: auto;
+display: flex;
+flex-direction: column;
+}
+.d-flex{
+display: flex;
+flex-direction: row;
+position: relative;
+left: 50px;
+}
+
+.justify-content-between {
+justify-content: space-between;
+}
+
+.type{
+padding-bottom: 50px;
+font-size: 2.8rem;
+text-transform: capitalize;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+width: 300px;
+position: relative;
+right: 50px;
+
+}
+
+.services-page .type3{
+height: 83px;
+width: 83px;
+background: red;
+padding: 18px;
+display: flex;
+justify-content: center;
+border-radius: 50%;;
+cursor: pointer;
+}
+
+
+.services-page .type2 h4{
+font-size: 1.5rem;
+margin: 10px 0;
+position: relative;
+}
+
+.services-page .type2 p{
+font-size: 1.28rem;
+font-style:italic;
+width: 350px;
+}
+
+.services-page .type1 .type2{
+width: 30%;
+padding: 30px;
+
+}
+
+.type1{
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
+
+.tools{
+display: flex;
+position: relative;
+}
+
+
+.plumbling-page {
+display: flex;
+justify-content: center;
+padding: 100px 650px 100px 848px;
+background-color:#104e92;
+line-height: 1.5;
+width: 100%;
+}
+
+.plumbling-page .section{
+position: relative;
+right: 150px;
+}
+
+.plumbling-page .image-section3{
+position: relative;
+right: 160px;
+} 
+.plumbling-page .image-section4{
+position: relative;
+right: 160px;
+top: 150px;
+}      
+.text14{
+position: relative;
+right: 150px;
+top: 50px;
+font-size: 1.5rem;
+color: white;
+}
+
+.text15{
+position: relative;
+right: 150px;
+top: 40px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 5rem;
+color: white;
+}
+
+.text16{
+position: relative;
+right: 150px;
+top: 5px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 6rem;
+color: white;
+}
+
+.image-section3{
+display: flex;
+justify-content: row;
+width: 20%;
+}
+
+.image-section4{
+display: flex;
+justify-content: row;
+width: 20%;
+}
+
+.image4{
+width: 200px;
+height: 150px;
+position: relative;
+right: 100px;
+}
+
+.image5{
+width: 200px;
+height: 150px;
+position: relative;
+right: 50px;
+}
+
+.image6{
+width: 200px;
+height: 150px;
+position: relative;
+right: 100px;
+top: 30px;
+}
+
+.image7{
+width: 200px;
+height: 150px;
+position: relative;
+right: 50px;
+top: 30px;
+}
+
+.mission-page{
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding: 0px 65px 250px 700px;
+line-height: 1.5;
+}
+
+.mission-page .text17{
+position: relative;
+right: 400px;
+top: 100px;
+font-size: 2.2rem;
+font-weight: bold;
+font-family: Roboto,sans-serif;
+width: 700px;
+text-align: center;
+}
+
+.mission-page .text18{
+position: relative;
+right: 400px;
+top: 150px;
+font-size: 2.2rem;
+width: 700px;
+text-align: center;
+}
+
+.mission-page .button-section2 button{
+display: flex;
+justify-content: center;
+position: relative;
+right: 220px;
+top: 200px;
+background-color: rgb(212, 42, 42);
+cursor: pointer;
+padding: auto;
+color: white;
+border: unset;
+width: 150px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.mission-page .button-section3 button{
+display: flex;
+justify-content: center;
+position: relative;
+right: 30px;
+top: 145px;
+background-color: rgb(255, 255, 255);
+border-color: black;
+cursor: pointer;
+padding: auto;
+color: black;
+border: unset;
+width: 150px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-width: 1px;
+border-style: solid;
+}
+
+
+.last{
+background-color: rgb(56, 55, 55);
+color: white;
+padding: 0px 650px 200px 848px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.lasttext{
+display: flex;
+justify-content: center;
+font-size: 1rem;
+width: 500px;
+text-align: center;
+position: relative;
+right: 450px;
+top: 50px;
+
+}
+
+.lasttext1{
+display: flex;
+justify-content: center;
+text-align: center;
+position: relative;
+top: 180px;
+right: 450px;
+bottom: 50px;
+width: 500px;
+font-size: 0.8rem;
+}
+
+
+@media only screen and (max-width:768px) {
+    *,*::before,*::after{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        width: 100%;
+    }
+
+    main{
+        width: 90%;
+    }
+
+    .first-style{
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .first-style .menu{
+       position: relative;
+       left: 380px;
+       top: 20px;
+    }
+
+    .first-style .heading-logo{
+        position: relative;
+        right: 280px;
+        top: 20px; 
+        color: lightgray;
+        font-family: 'Oxygen', sans-serif;  
+    }
+    .cleaner{
+       background-image: url("../img/hero-bg.jpg");
+        object-fit: cover;
+        background-size: cover;
+        background-position: 30% ;
+        background-repeat: no-repeat;
+       padding: 0px 0px 350px 765px;
+        display: flex;
+        flex-direction: column;
+        vertical-align: middle;
+        position: relative;
+        top: 50px;
+        padding-top: 80px;   
+    }
+
+    .cleaner .header-txt{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: 500px;
+        top: 120px;    
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-txt .text1{
+        color: white;
+        position: relative;
+        left: 100px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 40px;
+        width: 120px;
+        
+    }
+    .header-txt .text2{
+        color: white;
+        position: relative;
+        left: 130px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 40px;
+        width: 120px;
+        
+    }
+
+    .header-txt .text3{
+        color: white;
+        position: relative;
+        top: 60px;
+        right: 140px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 65px;
+    }
+
+    .text3::after{
+        content: '';
+        position: absolute;
+        left: 5px;
+        transform: translateX(-50);
+        width: 300px;
+        height: 8px;
+        background-color: white;
+        size: 50rem;
+        top: 100px;
+    }
+
+    
+.row{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 340px;
+    top: 200px;
+}
+
+.row .paint{
+    position: relative;
+    right: 300px;
+    top: 40px;
+}
+
+.row .cleaning{
+    position: relative;
+    right: 300px;
+    top: 40px;
+}
+
+.row .tap{
+    position: relative;
+    right: 290px;
+    top: 40px;
+}
+ 
+.brush{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 300px;
+    top: 30px;
+    padding: 12px;
+
+}
+
+    
+
+    .booking-page{
+        padding: 0px 65px 350px 700px;
+        background-color:rgb(236, 236, 236);
+        display: flex;
+        justify-content: center;
+        line-height: 1.5;
+        width: 100%;
+    }  
+    
+    .booking-page .page{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: relative;
+        right: 320px;
+        top: 200px;
+        font-size: 1rem;
+    }
+
+    .page .text4{
+        color: rgb(161, 161, 161);
+        width: 350px;
+        position: relative;
+        left: 250px;
+        font-size: 1.5rem;
+    }
+
+    .page .text5{
+        font-size: 2.5rem;
+        width: 750px;
+        position: relative;
+        right: 25px;
+        top: 20px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    }
+
+    .page .text6{
+        position: relative;
+        top: 50px;
+        left: 30px;
+        text-align: center;
+        font-size: 1.25rem;
+        width: 620px;
+        color: rgb(87, 86, 86);
+    }
+
+    .button-section button{
+        width: 10rem;
+        padding: 0.7rem;
+        background-color: rgb(212, 42, 42);
+        color: white;
+        border: unset;
+        padding: 20px;
+        position: relative;
+        top: 80px;
+        left: 260px;
+        font-size: 0.7rem;
+        cursor: pointer;
+     }
+
+     .contact-page{
+        padding: 0px 65px 250px 700px;
+        background-color:white;
+        line-height: 1.5;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 100%;
+     }
+
+     .contact-page .page1{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: relative;
+        right: 640px;
+        top: 50px;
+        font-size: 1rem;
+     }
+
+     .contact-page .page2{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: relative;
+        right: 600px;
+        top: 100px;
+        font-size: 1rem;
+     }
+
+     .page1 .image1{
+        width: 650px;        
+     }
+
+     .page1 .text7{
+         position: relative;
+         left: 30px;
+         top: 30px;
+         width: 600px;
+         font-size: 1.1rem;
+     }
+
+     .page2 .text8{
+        position: relative;
+        top: 50px;
+        left: 0px;
+        font-size: 2rem;
+        width: 350px;
+    }
+
+    .page2 .text9{
+        position: relative;
+        top: 50px;
+        left: 0px;
+        font-size: 2rem;
+        width: 350px;
+        color: red;
+    }
+
+    .page2 .image2{
+        width: 660px; 
+        position: relative;
+        right: 50px;
+        top: 80px;
+        
+     }
+
+     .quality-page{
+        padding: 0px 65px 95px 700px;
+        background-color:rgb(211, 202, 202);
+        line-height: 1.5;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        width: 100%;
+     }
+
+     .quality-page .page3{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: relative;
+        right: 820px;
+        top: 50px;
+        font-size: 1rem;
+     }
+
+  
+     .page3 .image3{
+        width: 380px;
+        position: relative;
+        left: 100px;
+        top: 50px;
+     }
+
+     .quality-page .page4{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: relative;
+        right: 750px;
+        top: 50px;
+     }
+
+     .page4 .text10{
+        color: rgb(3, 3, 184);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: relative;
+        top: 100px;
+        font-size: 3rem;
+        width: 100px;
+     }
+
+     .page4 .text10::after{
+        content: '';
+        position: absolute;
+        top: 150px;
+        right:50px;
+        transform: translateX(-50);
+        width: 350px;
+        height: 8px;
+        background-color: rgb(209, 4, 4);
+        size: 50rem;
+    }
+
+    .page4 .text11{
+        position: relative;
+        right: 10px;
+        top: 150px;
+        width: 350px;
+        font-size: 1.5rem;
+    }
+
+    .button-section1 button{
+        width: 8rem;
+        padding: 0.7rem;
+        background-color: rgb(212, 42, 42);
+        color: white;
+        border: unset;
+        padding: 20px;
+        position: relative;
+        top: 180px;
+        right: 10px;
+        font-size: 0.7rem;
+        cursor: pointer;
+    }
+
+       
+.services-page {
+    padding: 60px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 50px;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.type{
+    padding-bottom: 50px;
+    font-size: 2.8rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    position: relative;
+    left: 35px;
+
+}
+
+.services-page .type3{
+    height: 83px;
+    width: 83px;
+    background: red;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;;
+    cursor: pointer;
+}
+
+
+.services-page .type2 h4{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.services-page .type2 p{
+    font-size: 1.125rem;
+    font-style: italic;
+    width: 150px;
+}
+
+.services-page .type1 .type2{
+    width: 30%;
+    padding: 30px;
+    
+}
+
+.type1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.tools{
+    display: flex;
+    position: relative;
+}
+
+
+.plumbling-page {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0px 65px 250px 700px;
+    background-color:#104e92;
+    line-height: 1.5;
+}
+
+.plumbling-page .section{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    right: 500px;
+    
+}
+
+.section .text14{
+    position: relative;
+    right: 145px;
+    top: 120px;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 100px;
+}
+
+.section .text15{
+    position: relative;
+    right: 150px;
+    top: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    color: white;
+}
+
+.section .text16{
+    position: relative;
+    left: 180px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    color: white;
+
+}
+
+.image-section3{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 30px;
+}
+
+.image-section4{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    position: relative;
+    top: 100px;
+}
+
+.image-section3 .image4{
+    width: 400px;
+    height: 40vh;
+    position: relative;
+    right: 500px;
+    top: 50px; 
+}
+
+.image-section3 .image5{
+    width: 400px;
+    height: 40vh;
+    position: relative;
+    right: 450px;
+    top: 50px;  
+}
+
+.image-section4 .image6{
+    width: 400px;
+    height: 40vh;
+    position: relative;
+    right: 500px;
+    top: 20px; 
+}
+.image-section4 .image7{
+    width: 400px;
+    height: 40vh;
+    position: relative;
+    right: 450px;
+    top: 20px;  
+}
+
+.mission-page{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0px 65px 250px 700px;
+    line-height: 1.5;
+}
+
+.mission-page .text17{
+    position: relative;
+    right: 680px;
+    top: 100px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family: Roboto,sans-serif;
+    width: 700px;
+    text-align: center;
+}
+
+.mission-page .text18{
+    position: relative;
+    right: 680px;
+    top: 150px;
+    font-size: 2.2rem;
+    width: 700px;
+    text-align: center;
+}
+
+.mission-page .button-section2 button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 520px;
+    top: 200px;
+    background-color: rgb(212, 42, 42);
+    cursor: pointer;
+    padding: auto;
+    color: white;
+    border: unset;
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mission-page .button-section3 button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 340px;
+    top: 145px;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    cursor: pointer;
+    padding: auto;
+    color: black;
+    border: unset;
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+.last{
+    background-color: rgb(56, 55, 55);
+    color: white;
+    padding: 0px 65px 250px 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.lasttext{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    right: 580px;
+    top: 50px;
+   
+}
+
+.lasttext1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    right: 600px;
+    bottom: 50px;
+    width: 500px;
+    font-size: 0.8rem;
+}
+
+}
+
+
+@media only screen and (max-width: 425px){
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+}
+
+.first-style{
+    display: flex;
+    justify-content: center;
+
+}
+
+.first-style .menu{
+   position: relative;
+   left: 210px;
+   top: 20px;
+}
+
+.first-style .heading-logo{
+    position: relative;
+    right: 140px;
+    top: 20px; 
+    color: lightgray;
+    font-family: 'Oxygen', sans-serif;  
+}
+.cleaner{
+   background-image: url("../img/hero-bg.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: 82% ;
+    background-repeat: no-repeat;
+   padding: 0px 0px 350px 420px;
+    display: flex;
+    vertical-align: middle;
+    padding-top: 280px; 
+    position: relative;
+    top: 50px;   
+}
+
+.cleaner .header-txt{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 300px;
+    top: 180px;
+    font-size: 27px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-txt .text1{
+    color: white;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    
+}
+.header-txt .text2{
+    color: white;
+    position: relative;
+    left: 160px;
+    top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    
+}
+
+.header-txt .text3{
+    color: white;
+    position: relative;
+    top: 60px;
+    right: 80px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 65px;
+}
+
+.text3::after{
+    content: '';
+    position: absolute;
+    left: 5px;
+    transform: translateX(-50);
+    width: 300px;
+    height: 8px;
+    background-color: white;
+    size: 50rem;
+    top: 80px;
+}
+
+.row{
+display: none;
+}
+
+.booking-page{
+    padding: 0px 0px 200px 420px;
+    background-color:rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+    width: 100%;
+}  
+
+.booking-page .page{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    right: 250px;
+    top: 100px;
+    font-size: 1rem;
+}
+
+.page .text4{
+    color: rgb(161, 161, 161);
+    width: 170px;
+    position: relative;
+    left: 80px;
+}
+
+.page .text5{
+    font-size: 2rem;
+    width: 250px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.page .text6{
+    position: relative;
+    top: 30px;
+    right: 50px;
+    text-align: center;
+    font-size: 1.25rem;
+    width: 300px;
+}
+
+.button-section button{
+    width: 8rem;
+    background-color: rgb(212, 42, 42);
+    color: white;
+    border: unset;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    left: 115px;
+    font-size: 0.7rem;
+    cursor: pointer;
+ }
+
+ .contact-page{
+    padding: 0px 0px 200px 420px;
+    background-color:white;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+ }
+
+ .contact-page .page1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    right: 500px;
+    top: 50px;
+    font-size: 1rem;
+ }
+
+ .contact-page .page2{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    right: 500px;
+    top: 100px;
+    font-size: 1rem;
+ }
+
+ .page1 .image1{
+    width: 380px;
+    position: relative;
+    left: 100px;
+    
+ }
+
+ .page1 .text7{
+     position: relative;
+     left: 150px;
+     top: 30px;
+     width: 280px;
+ }
+
+ .page2 .text8{
+    position: relative;
+    top: 30px;
+    left: 120px;
+    font-size: 1.8rem;
+    width: 350px;
+}
+
+.page2 .text9{
+    position: relative;
+    top: 30px;
+    left: 120px;
+    font-size: 1.8rem;
+    width: 350px;
+    color: red;
+}
+
+.page2 .image2{
+    width: 380px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    
+ }
+
+
+ .quality-page{
+    padding: 0px 0px 280px 420px;
+    background-color:rgb(211, 202, 202);
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+ }
+
+ .quality-page .page3{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    right: 500px;
+    top: 50px;
+    font-size: 1rem;
+ }
+
+
+ .page3 .image3{
+    width: 380px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+ }
+
+ .quality-page .page4{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    right: 125px;
+    top: 50px;
+ }
+
+ .page4 .text10{
+    color: rgb(3, 3, 184);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 80px;
+    right: 260px;
+    font-size: 5rem;
+    line-height: 1;
+ }
+
+ .page4 .text10::after{
+    content: '';
+    position: absolute;
+    top: 180px;
+    left:20px;
+    transform: translateX(-50);
+    width: 350px;
+    height: 8px;
+    background-color: rgb(209, 4, 4);
+    size: 30rem;
+}
+
+.page4 .text11{
+    position: relative;
+    right: 250px;
+    top: 150px;
+    width: 350px;
+    font-size: 1.5rem;
+}
+
+.button-section1 button{
+    width: 8rem;
+    padding: 0.7rem;
+    background-color: rgb(212, 42, 42);
+    color: white;
+    border: unset;
+    padding: 20px;
+    position: relative;
+    top: 180px;
+    right: 250px;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+   
+
+ 
+.services-page {
+padding: 100px;
+}
+.container{
+width: 90%;
+margin: auto;
+display: flex;
+flex-direction: column;
+}
+.d-flex{
+display: flex;
+flex-direction: column;
+position: relative;
+left: 0px;
+}
+
+.justify-content-between {
+justify-content: space-between;
+}
+
+
+
+.type{
+padding-bottom: 50px;
+font-size: 2.8rem;
+text-transform: capitalize;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+}
+
+.services-page .type3{
+height: 83px;
+width: 83px;
+background: red;
+padding: 18px;
+display: flex;
+justify-content: center;
+border-radius: 50%;;
+cursor: pointer;
+}
+
+
+.services-page .type2 h4{
+font-size: 1.5rem;
+margin: 10px 0;
+}
+
+.services-page .type2 p{
+font-size: 1.125rem;
+font-style: italic;
+width: 350px;
+}
+
+.services-page .type1 .type2{
+width: 30%;
+padding: 8px;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.type1{
+display: flex;
+justify-content: center;
+flex-direction: row;
+padding-top: 30px;
+}
+
+.tools{
+display: flex;
+position: relative;
+}
+
+
+.plumbling-page {
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+padding: 0px 0px 250px 420px;
+background-color:#104e92;
+line-height: 1.5;
+}
+
+.plumbling-page .section{
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+position: relative;
+right: 200px;
+
+}
+
+.section .text14{
+position: relative;
+right: 150px;
+top: 80px;
+font-size: 1rem;
+color: white;
+font-family: 'Open Sans', sans-serif;
+width: 100px;
+}
+
+.section .text15{
+position: relative;
+right: 150px;
+top: 80px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2.2rem;
+color: white;
+}
+
+.section .text16{
+position: relative;
+right: 150px;
+top: 70px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 3.2rem;
+color: white;
+direction: rtl;
+}
+
+.image-section3{
+display: flex;
+flex-direction: column;
+position: relative;
+right: 500px;
+top: 30px;
+}
+
+.image-section4{
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+position: relative;
+right: 500px;
+top: 100px;
+}
+
+.image-section3 .image4{
+width: 350px;
+position: relative;
+right: 230px;
+top: 50px; 
+}
+
+.image-section3 .image5{
+width: 350px;
+position: relative;
+right: 230px;
+top: 80px;  
+}
+
+.image-section4 .image6{
+width: 350px;
+position: relative;
+right: 230px;
+top: 20px; 
+}
+.image-section4 .image7{
+width: 350px;
+position: relative;
+right: 230px;
+top: 60px;  
+}
+
+.mission-page{
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+padding: 50px 0px 200px 420px;
+line-height: 1.5;
+}
+
+.mission-page .text17{
+position: relative;
+right: 370px;
+font-size: 2rem;
+font-weight: bold;
+font-family: Roboto,sans-serif;
+width: 300px;
+text-align: center;
+}
+
+.mission-page .text18{
+position: relative;
+right: 370px;
+font-size: 2rem;
+width: 300px;
+text-align: center;
+}
+
+.mission-page .button-section2 button{
+display: flex;
+justify-content: center;
+position: relative;
+right: 300px;
+top: 160px;
+background-color: rgb(212, 42, 42);
+cursor: pointer;
+padding: auto;
+color: white;
+border: unset;
+width: 150px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.mission-page .button-section3 button{
+display: flex;
+justify-content: center;
+position: relative;
+right: 300px;
+top: 180px;
+background-color: rgb(255, 255, 255);
+border-color: black;
+cursor: pointer;
+padding: auto;
+color: black;
+border: unset;
+width: 150px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-width: 1px;
+border-style: solid;
+}
+
+
+.last{
+background-color: rgb(56, 55, 55);
+color: white;
+padding: 50px 0px 200px 420px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.lasttext{
+display: flex;
+justify-content: center;
+font-size: 1rem;
+width: 350px;
+text-align: center;
+position: relative;
+right: 400px;
+
+}
+
+.lasttext1{
+display: flex;
+justify-content: center;
+text-align: center;
+position: relative;
+top: 180px;
+right: 0px;
+font-size: 0.8rem;
+right: 400px;
+width: 350px;
+}
+
+}
+
+
+@media only screen and (max-width: 375px){
+    *,*::before,*::after{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        width: 100%;
+    }
+    
+    main{
+        width: 90%;
+    }
+    
+    .first-style{
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .first-style .menu{
+       position: relative;
+       left: 210px;
+       top: 20px;
+    }
+    
+    .first-style .heading-logo{
+        position: relative;
+        right: 140px;
+        top: 20px; 
+        color: lightgray;
+        font-family: 'Oxygen', sans-serif;  
+    }
+    .cleaner{
+       background-image: url("../img/hero-bg.jpg");
+        object-fit: cover;
+        background-size: cover;
+        background-position: 82% ;
+        background-repeat: no-repeat;
+       padding: 0px 0px 350px 370px;
+        display: flex;
+        vertical-align: middle;
+        padding-top: 280px; 
+        position: relative;
+        top: 50px;   
+    }
+    
+    .cleaner .header-txt{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: 270px;
+        top: 180px;
+        font-size: 27px;
+    
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .header-txt .text1{
+        color: white;
+        position: relative;
+        left: 150px;
+        top: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 35px;
+        
+    }
+    .header-txt .text2{
+        color: white;
+        position: relative;
+        left: 160px;
+        top: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 35px;
+        
+    }
+    
+    .header-txt .text3{
+        color: white;
+        position: relative;
+        top: 60px;
+        right: 80px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 65px;
+    }
+    
+    .text3::after{
+        content: '';
+        position: absolute;
+        left: 5px;
+        transform: translateX(-50);
+        width: 300px;
+        height: 8px;
+        background-color: white;
+        size: 50rem;
+        top: 80px;
+    }
+    
+    .row{
+    display: none;
+    }
+    
+    .booking-page{
+        padding: 0px 0px 200px 370px;
+        background-color:rgb(236, 236, 236);
+        display: flex;
+        justify-content: center;
+        line-height: 1.5;
+        width: 100%;
+    }  
+    
+    .booking-page .page{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: relative;
+        right: 210px;
+        top: 100px;
+        font-size: 1rem;
+    }
+    
+    .page .text4{
+        color: rgb(161, 161, 161);
+        width: 170px;
+        position: relative;
+        left: 80px;
+    }
+    
+    .page .text5{
+        font-size: 2rem;
+        width: 250px;
+        position: relative;
+        left: 40px;
+        top: 20px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    }
+    
+    .page .text6{
+        position: relative;
+        top: 30px;
+        right: 50px;
+        text-align: center;
+        font-size: 1.25rem;
+        width: 300px;
+    }
+    
+    .button-section button{
+        width: 8rem;
+        background-color: rgb(212, 42, 42);
+        color: white;
+        border: unset;
+        padding: 20px;
+        position: relative;
+        top: 50px;
+        left: 115px;
+        font-size: 0.7rem;
+        cursor: pointer;
+     }
+    
+     .contact-page{
+        padding: 0px 0px 200px 370px;
+        background-color:white;
+        line-height: 1.5;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+     }
+    
+     .contact-page .page1{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: relative;
+        right: 480px;
+        top: 50px;
+        font-size: 1rem;
+     }
+    
+     .contact-page .page2{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: relative;
+        right: 480px;
+        top: 100px;
+        font-size: 1rem;
+     }
+    
+     .page1 .image1{
+        width: 340px;
+        position: relative;
+        left: 120px;
+        
+     }
+    
+     .page1 .text7{
+         position: relative;
+         left: 150px;
+         top: 30px;
+         width: 280px;
+     }
+    
+     .page2 .text8{
+        position: relative;
+        top: 30px;
+        left: 135px;
+        font-size: 1.8rem;
+        width: 350px;
+    }
+    
+    .page2 .text9{
+        position: relative;
+        top: 30px;
+        left: 135px;
+        font-size: 1.8rem;
+        width: 350px;
+        color: red;
+    }
+    
+    .page2 .image2{
+        width: 340px;
+        position: relative;
+        left: 120px;
+        top: 50px;
+        
+     }
+    
+    
+     .quality-page{
+        padding: 0px 0px 280px 370px;
+        background-color:rgb(211, 202, 202);
+        line-height: 1.5;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+     }
+    
+     .quality-page .page3{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: relative;
+        right: 500px;
+        top: 50px;
+        font-size: 1rem;
+     }
+    
+    
+     .page3 .image3{
+        width: 380px;
+        position: relative;
+        left: 120px;
+        top: 50px;
+     }
+    
+     .quality-page .page4{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: relative;
+        right: 125px;
+        top: 50px;
+     }
+    
+     .page4 .text10{
+        color: rgb(3, 3, 184);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: relative;
+        top: 80px;
+        right: 240px;
+        font-size: 5rem;
+        line-height: 1;
+     }
+    
+    
+     .page4 .text10::after{
+        content: '';
+        position: absolute;
+        top: 180px;
+        left:10px;
+        transform: translateX(-50);
+        width: 350px;
+        height: 8px;
+        background-color: rgb(209, 4, 4);
+        size: 30rem;
+    }
+    
+    .page4 .text11{
+        position: relative;
+        right: 230px;
+        top: 140px;
+        width: 350px;
+        font-size: 1.5rem;
+    }
+    
+    .button-section1 button{
+        width: 8rem;
+        padding: 0.7rem;
+        background-color: rgb(212, 42, 42);
+        color: white;
+        border: unset;
+        padding: 20px;
+        position: relative;
+        top: 150px;
+        right: 230px;
+        font-size: 0.7rem;
+        cursor: pointer;
+    }
+    
+       
+    
+     
+    .services-page {
+    padding: 100px;
+    }
+    .container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    }
+    .d-flex{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 23px;
+    }
+    
+    .justify-content-between {
+    justify-content: space-between;
+    }
+    
+    .type{
+    padding-bottom: 50px;
+    font-size: 2.8rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+   position: absolute;
+    }
+    
+    .services-page .type3{
+    height: 83px;
+    width: 83px;
+    background: red;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;;
+    cursor: pointer;
+    }
+    
+    
+    .services-page .type2 h4{
+    font-size: 1.5rem;
+    margin: 10px 0;
+    }
+    
+    .services-page .type2 p{
+    font-size: 1.125rem;
+    font-style: italic;
+    width: 350px;
+    }
+    
+    .services-page .type1 .type2{
+    width: 30%;
+    padding: 8px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    
+    .type1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    }
+    
+    .tools{
+    display: flex;
+    position: relative;
+    }
+    
+    
+    .plumbling-page {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0px 0px 250px 370px;
+    background-color:#104e92;
+    line-height: 1.5;
+    }
+    
+    .plumbling-page .section{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    right: 200px;
+    
+    }
+    
+    .section .text14{
+    position: relative;
+    right: 150px;
+    top: 80px;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 100px;
+    }
+    
+    .section .text15{
+    position: relative;
+    right: 150px;
+    top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2rem;
+    color: white;
+    }
+    
+    .section .text16{
+    position: relative;
+    right: 150px;
+    top: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.2rem;
+    color: white;
+    
+    }
+    
+    .image-section3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 500px;
+    }
+    
+    .image-section4{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    right: 500px;
+    }
+    
+    .image-section3 .image4{
+    width: 300px;
+    position: relative;
+    right: 180px;
+    top: 50px; 
+    }
+    
+    .image-section3 .image5{
+    width: 300px;
+    position: relative;
+    right: 180px;
+    top: 80px;  
+    }
+    
+    .image-section4 .image6{
+    width: 300px;
+    position: relative;
+    right: 180px;
+    top: 20px; 
+    }
+    .image-section4 .image7{
+    width: 300px;
+    position: relative;
+    right: 180px;
+    top: 50px;  
+    }
+    
+    .mission-page{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 50px 0px 200px 370px;
+    line-height: 1.5;
+    }
+    
+    .mission-page .text17{
+    position: relative;
+    right: 330px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Roboto,sans-serif;
+    width: 300px;
+    text-align: center;
+    }
+    
+    .mission-page .text18{
+    position: relative;
+    right: 330px;
+    font-size: 2rem;
+    width: 300px;
+    text-align: center;
+    }
+    
+    .mission-page .button-section2 button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 260px;
+    top: 160px;
+    background-color: rgb(212, 42, 42);
+    cursor: pointer;
+    padding: auto;
+    color: white;
+    border: unset;
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    
+    .mission-page .button-section3 button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 260px;
+    top: 180px;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    cursor: pointer;
+    padding: auto;
+    color: black;
+    border: unset;
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+    }
+    
+    
+    .last{
+    background-color: rgb(56, 55, 55);
+    color: white;
+    padding: 50px 0px 200px 370px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .lasttext{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    width: 350px;
+    text-align: center;
+    position: relative;
+    right: 360px;
+    
+    }
+    
+    .lasttext1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    right: 0px;
+    font-size: 0.8rem;
+    right: 360px;
+    width: 350px;
+    }
+    
+    }
+
+    
+
+@media only screen and (max-width: 320px){
+    *,*::before,*::after{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        width: 100%;
+    }
+    
+    main{
+        width: 90%;
+    }
+    
+    .first-style{
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .first-style .menu{
+       position: relative;
+       left: 180px;
+       top: 20px;
+    }
+    
+    .first-style .heading-logo{
+        position: relative;
+        right: 100px;
+        top: 20px; 
+        color: lightgray;
+        font-family: 'Oxygen', sans-serif;  
+    }
+    .cleaner{
+       background-image: url("../img/hero-bg.jpg");
+        object-fit: cover;
+        background-size: cover;
+        background-position: 82% ;
+        background-repeat: no-repeat;
+       padding: 0px 0px 350px 313px;
+        display: flex;
+        vertical-align: middle;
+        padding-top: 230px; 
+        position: relative;
+        top: 50px;   
+    }
+    
+    .cleaner .header-txt{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: 260px;
+        top: 180px;
+    
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .header-txt .text1{
+        color: white;
+        position: relative;
+        left: 170px;
+        top: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        
+    }
+    .header-txt .text2{
+        color: white;
+        position: relative;
+        left: 180px;
+        top: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        
+    }
+    
+    .header-txt .text3{
+        color: white;
+        position: relative;
+        top: 60px;
+        right: 0px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 50px;
+    }
+    
+    .text3::after{
+        content: '';
+        position: absolute;
+        left: 5px;
+        transform: translateX(-50);
+        width: 220px;
+        height: 8px;
+        background-color: white;
+        size: 50rem;
+        top: 60px;
+    }
+    
+    .row{
+    display: none;
+    }
+    
+    .booking-page{
+        padding: 0px 0px 200px 313px;
+        background-color:rgb(236, 236, 236);
+        display: flex;
+        justify-content: center;
+        line-height: 1.5;
+        width: 100%;
+    }  
+    
+    .booking-page .page{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: relative;
+        right: 190px;
+        top: 100px;
+    }
+    
+    .page .text4{
+        color: rgb(161, 161, 161);
+        width: 170px;
+        position: relative;
+        left: 80px;
+    }
+    
+    .page .text5{
+        font-size: 2rem;
+        width: 250px;
+        position: relative;
+        left: 40px;
+        top: 20px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    }
+    
+    .page .text6{
+        position: relative;
+        top: 30px;
+        right: 50px;
+        text-align: center;
+        font-size: 1.25rem;
+        width: 300px;
+    }
+    
+    .button-section button{
+        width: 8rem;
+        background-color: rgb(212, 42, 42);
+        color: white;
+        border: unset;
+        padding: 20px;
+        position: relative;
+        top: 50px;
+        left: 115px;
+        font-size: 0.7rem;
+        cursor: pointer;
+     }
+    
+     .contact-page{
+        padding: 0px 0px 200px 313px;
+        background-color:white;
+        line-height: 1.5;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+     }
+    
+     .contact-page .page1{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: relative;
+        right: 480px;
+        top: 50px;
+        font-size: 1rem;
+     }
+    
+     .contact-page .page2{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: relative;
+        right: 480px;
+        top: 100px;
+     }
+    
+     .page1 .image1{
+        width: 280px;
+        position: relative;
+        left: 180px;
+        
+     }
+    
+     .page1 .text7{
+         position: relative;
+         left: 180px;
+         top: 30px;
+         width: 280px;
+     }
+    
+     .page2 .text8{
+        position: relative;
+        top: 30px;
+        left: 180px;
+        font-size: 1.5rem;
+        width: 280px;
+    }
+    
+    .page2 .text9{
+        position: relative;
+        top: 30px;
+        left: 180px;
+        font-size: 1.5rem;
+        width: 280px;
+        color: red;
+    }
+    
+    .page2 .image2{
+        width: 280px;
+        position: relative;
+        left: 180px;
+        top: 50px;
+        
+     }
+    
+    
+     .quality-page{
+        padding: 0px 0px 280px 313px;
+        background-color:rgb(211, 202, 202);
+        line-height: 1.5;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+     }
+    
+     .quality-page .page3{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: relative;
+        right: 500px;
+        top: 50px;
+        font-size: 1rem;
+     }
+    
+    
+     .page3 .image3{
+        width: 280px;
+        position: relative;
+        left: 190px;
+        top: 50px;
+     }
+    
+     .quality-page .page4{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: relative;
+        right: 120px;
+        top: 50px;
+     }
+    
+     .page4 .text10{
+        color: rgb(3, 3, 184);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: relative;
+        top: 80px;
+        right: 180px;
+        font-size: 2.8rem;
+        line-height: 1;
+     }
+    
+     .page4 .text10::after{
+        content: '';
+        position: absolute;
+        top: 100px;
+        right: 20px;
+        transform: translateX(-50);
+        width: 280px;
+        height: 8px;
+        background-color: rgb(209, 4, 4);
+        size: 30rem;
+    }
+    
+    .page4 .text11{
+        position: relative;
+        right: 180px;
+        top: 140px;
+        width: 280px;
+        font-size: 1.5rem;
+    }
+    
+    .button-section1 button{
+        width: 8rem;
+        padding: 0.7rem;
+        background-color: rgb(212, 42, 42);
+        color: white;
+        border: unset;
+        padding: 20px;
+        position: relative;
+        top: 150px;
+        right: 180px;
+        font-size: 0.7rem;
+        cursor: pointer;
+    }
+    
+       
+    
+     
+    .services-page {
+    padding: 100px;
+    }
+    .container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    }
+    .d-flex{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+    }
+    
+    .justify-content-between {
+    justify-content: space-between;
+    }
+    
+    .type{
+    padding-bottom: 50px;
+    font-size: 2.8rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 280px;
+    position: absolute;
+    }
+    
+    .services-page .type3{
+    height: 83px;
+    width: 83px;
+    background: red;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;;
+    cursor: pointer;
+    }
+    
+    
+    .services-page .type2 h4{
+    font-size: 1.5rem;
+    margin: 10px 0;
+    }
+    
+    .services-page .type2 p{
+    font-size: 1.125rem;
+    font-style: italic;
+    width: 280px;
+    }
+    
+    .services-page .type1 .type2{
+    width: 30%;
+    padding: 8px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    
+    .type1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    }
+    
+    .tools{
+    display: flex;
+    position: relative;
+    }
+    
+    
+    .plumbling-page {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0px 0px 200px 313px;
+    background-color:#104e92;
+    line-height: 1.5;
+    }
+    
+    .plumbling-page .section{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    right: 250px;
+    
+    }
+    
+    .section .text14{
+    position: relative;
+    right: 10px;
+    top: 80px;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 100px;
+    }
+    
+    .section .text15{
+    position: relative;
+    right: 10px;
+    top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color: white;
+    }
+    
+    .section .text16{
+    position: relative;
+    top: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    color: white;
+    
+    }
+    
+    .image-section3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 30px;
+    }
+    
+    .image-section4{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    }
+    
+    .image-section3 .image4{
+    width: 280px;
+    position: relative;
+    right: 140px;
+    top: 50px; 
+    }
+    
+    .image-section3 .image5{
+    width: 280px;
+    position: relative;
+    right: 140px;
+    top: 80px;  
+    }
+    
+    .image-section4 .image6{
+    width: 280px;
+    position: relative;
+    right: 140px;
+    top: 0px; 
+    }
+    .image-section4 .image7{
+    width: 280px;
+    position: relative;
+    right: 140px;
+    top: 20px;  
+    }
+    
+    .mission-page{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 50px 0px 200px 313px;
+    line-height: 1.5;
+    }
+    
+    .mission-page .text17{
+    position: relative;
+    right: 310px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Roboto,sans-serif;
+    width: 300px;
+    text-align: center;
+    }
+    
+    .mission-page .text18{
+    position: relative;
+    right: 310px;
+    font-size: 2rem;
+    width: 300px;
+    text-align: center;
+    }
+    
+    .mission-page .button-section2 button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 240px;
+    top: 160px;
+    background-color: rgb(212, 42, 42);
+    cursor: pointer;
+    padding: auto;
+    color: white;
+    border: unset;
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    
+    .mission-page .button-section3 button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 240px;
+    top: 180px;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    cursor: pointer;
+    padding: auto;
+    color: black;
+    border: unset;
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+    }
+    
+    
+    .last{
+    background-color: rgb(56, 55, 55);
+    color: white;
+    padding: 50px 0px 200px 313px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .lasttext{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    width: 280px;
+    text-align: center;
+    position: relative;
+    right: 300px;
+    
+    }
+    
+    .lasttext1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    right: 0px;
+    font-size: 0.8rem;
+    right: 320px;
+    width: 300px;
+    }
+    
+    }
+
+    
+
