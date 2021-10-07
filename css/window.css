@@ -36,7 +36,7 @@ main{
     object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
-   padding: 0px 650px 500px 848px;
+   padding: 0px 500px 500px 845px;
     display: flex;
     flex-direction: column;
     vertical-align: middle;
@@ -140,7 +140,7 @@ padding: 40px;
 
 
 .booking-page{
-    padding: 0px 650px 500px 848px;
+    padding: 0px 500px 500px 845px;
     background-color:rgb(236, 236, 236);
     display: flex;
     justify-content: center;
@@ -268,7 +268,7 @@ padding: 40px;
  }
 
  .quality-page{
-    padding: 0px 650px 42px 848px;
+    padding: 0px 500px 42px 845px;
     background-color:rgb(211, 202, 202);
     line-height: 1.5;
     display: flex;
@@ -426,7 +426,7 @@ position: relative;
 .plumbling-page {
 display: flex;
 justify-content: center;
-padding: 100px 650px 100px 848px;
+padding: 100px 500px 100px 845px;
 background-color:#104e92;
 line-height: 1.5;
 width: 100%;
@@ -581,7 +581,7 @@ border-style: solid;
 .last{
 background-color: rgb(56, 55, 55);
 color: white;
-padding: 0px 650px 200px 848px;
+padding: 0px 500px 200px 845px;
 display: flex;
 justify-content: center;
 flex-direction: column;
